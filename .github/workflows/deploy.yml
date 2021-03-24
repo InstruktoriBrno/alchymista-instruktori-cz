@@ -1,8 +1,8 @@
 name: Deploy on Github Pages
 
 on:
-  #push:
-  #  branches: [ master ]
+  push:
+    branches: [ master ]
   # allows manual dispatch
   workflow_dispatch:
 
